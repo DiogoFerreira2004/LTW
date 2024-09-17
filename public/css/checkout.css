@@ -1,0 +1,78 @@
+.payContainer .recipeContainer{
+    width: 45em;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.recipeTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.recipeItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.recipeItemName{
+    grid-column: 1;
+    display: flex;
+    justify-content: left;
+}
+
+.recipePrice{
+    grid-column: 2;
+    display: flex;
+    justify-content: right;
+}
+
+.recipeTotal{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe_footer{
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+    gap: 1rem;
+}
+
+.recipe_footer_box_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe_footer_logo{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    
+}
+.recipe_footer_logo a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.recipe_footer_logo img{
+    width: 2em;
+    height: 2em;
+}
+
+.recipe_footer_logo p{
+    color: #000;
+    font-size: 1.5rem;
+}

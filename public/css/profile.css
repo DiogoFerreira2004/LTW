@@ -1,0 +1,134 @@
+.edit-profile-container {
+    margin-top: 10em;
+}
+
+.userInfoGeral{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    align-items: flex-start;
+}
+
+.userInfoGeral .userPicture{
+    grid-column: 1;
+    padding: 1em;
+    padding-top: 2em;
+}
+
+.userInfoGeral .userInfo {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.userInfoGeral .userInfo h1{
+    font-weight: bold;
+    color: black;
+}
+
+.userInfoGeral .userInfo .nome{
+    padding-bottom: 1em;
+    padding-left: 1em;
+    p{
+        color: rgb(65, 65, 65);
+    }
+}
+
+.userInfoGeral .messageMe {
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.5em;
+    padding-right: 1em;
+}
+
+.userInfoGeral .messageMe button {
+    border-radius: 20px;
+    padding: 10px 20px; 
+    background-color: #99604f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.messageMe button:hover{
+    background-color: grey;
+}
+
+.bookName{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bookPrice{
+    color: black;
+    font-size: 20px;
+}
+
+.sectionTitle h2{
+    padding-left: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 5px;
+    margin-left: 1em;
+}
+
+.inputTitle{
+    margin-left: 1em;
+}
+
+.input-group input {
+    width: calc(100% - 2em);
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.editButton{
+    border-radius: 20px;
+    padding: 10px 20px; 
+    background-color: #99604f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.editButton:hover{
+    background-color: grey;
+}
+
+.noBooksColumn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        img{
+            padding-left: 7.5em;
+        }
+    
+        p{
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            padding-top: 1em;
+        }
+}

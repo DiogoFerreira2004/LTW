@@ -1,0 +1,302 @@
+h2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+#book{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 2em;
+}
+
+.leftSide{
+    padding-left: 3em;
+    grid-column: 1;
+    img{
+        height: 350px;
+        width: 300px;
+    }
+}
+
+.rightSide{
+    grid-column: 2;
+    padding-bottom: 1em;
+    p {
+        font-size: 18px;
+    }
+}
+
+.container{
+    height: auto;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+}
+
+.editBookButton{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    button{
+        height: 3em;
+        border: none;
+        border-radius: 20px;
+        background-color: #4caf4c;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.editBookButton button:hover{
+    background-color: grey;
+}
+
+.addCart{
+    button{
+        width: 95%;
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+        height: 2.5em;
+        border: none;
+        border-radius: 20px;
+        background-color: #4caf4c;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.addCart button:hover{
+    background-color: grey;
+}
+
+.wishlist{
+    width: 95%;
+    margin-bottom: 0.3em;
+    display: flex;
+    flex-direction: column;
+    button{
+        height: 2.5em;
+        border: none;
+        border-radius: 20px;
+        background-color: #fa0101;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.wishlist button:hover{
+    background-color: grey;
+}
+
+.message{
+    width: 95%;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    button{
+        height: 2.5em;
+        border: none;
+        border-radius: 20px;
+    background-color: #2a2f33;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+}
+
+.message button:hover{
+    background-color: grey;
+}
+
+form {
+    position: relative;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    align-self: flex-start;
+}
+
+.search-container {
+    padding-top: 1.5em;
+}
+
+#searchBook {
+    border-radius: 20px;
+    width: 30em;
+    height: 3em;
+    padding-left: 1em;
+}
+
+#genres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#genres button {
+    flex: 1;
+    text-align: center;
+}
+
+.leftSide {
+    padding-left: 3em;
+}
+
+.leftSide img {
+    height: 350px;
+    width: 300px;
+}
+
+.rightSide {
+    padding-bottom: 1em;
+}
+
+.payContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box span {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px; 
+}
+
+.flex .btn {
+    flex: 1; 
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.flex .remove-btn {
+    background: #f44336; 
+}
+
+.flex .btn:hover {
+    opacity: 0.8;
+}
+
+.containerEdit{
+    width: 700px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.btn-remove {
+    background-color: red;
+    color: white; 
+}
+
+.btn-edit {
+    background-color: #4caf4c;
+    color: white; 
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+.center-button .editButton {
+    width: 70%;
+}
+
+.add_book {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.add_book input {
+    width: 20%;
+}
+
+.add_book select {
+    width: 20%;
+}
+
+.add_book button {
+    width: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf4c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add_book button:hover {
+    background-color: grey;
+}

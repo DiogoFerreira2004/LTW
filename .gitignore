@@ -1,0 +1,4 @@
+database/database.db
+public/images/user_uploads/*.png
+public/images/user_uploads/*.jpg
+public/images/user_uploads/*.jpeg

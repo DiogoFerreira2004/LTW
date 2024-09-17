@@ -1,0 +1,14 @@
+Hello, I'm just a placeholder.
+
+My only purpose in life is being here
+because the guy that made git decided
+that if a directory is empty then it
+is not worthy of being tracked.
+
+If you are wondering why I didn't do
+a .gitkeep file, it was because if I
+had done so, then I wouldn't be able
+to write this little easter egg.
+
+To whoever reads this I wish you a
+great day!
